@@ -1,7 +1,7 @@
-# Archcraft : Perfil ISO (Documentación en Español)
+# ARCHFIEI : Perfil ISO 
 
 ### ¿Qué es?
-- Perfil personalizado de ArchISO para generar la ISO de Archcraft.
+- Perfil personalizado de ArchISO para generar la ISO de ARCHFIEI.
 - Incluye lista de paquetes, configuración de arranque (UEFI/BIOS), y scripts de personalización del sistema live/instalado.
 
 ### Estructura clave
@@ -21,7 +21,8 @@
 
 ### Cómo construir
 ```bash
-sudo /home/arc/Escritorio/archcraft/profile/mkarchcraftiso /home/arc/Escritorio/archcraft/profile
+cd archfiei-master
+./profile/mkarchcraftiso -v profile/
 ```
 
 ### Personalización rápida
