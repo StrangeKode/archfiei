@@ -1,36 +1,36 @@
-# Guía de Personalización Exhaustiva de la ISO Archcraft
+# Guía de Personalización de la ISO ARCHFIEI
 
-Esta guía proporciona instrucciones detalladas sobre cómo modificar la ISO de Archcraft para incluir configuraciones predeterminadas personalizadas al instalarla en su PC. Cubriremos la personalización de Grub, Calamares y ABIF, el cambio de iconos, la personalización de carpetas para BSPWM y Openbox, y la configuración de un fondo de pantalla predeterminado.
+Esta guía proporciona instrucciones detalladas sobre cómo modificar la ISO de ARCHFIEI para incluir configuraciones predeterminadas personalizadas al instalarla en su PC. Cubriremos la personalización de Grub, Calamares y ABIF, el cambio de iconos, la personalización de carpetas para BSPWM y Openbox, y la configuración de un fondo de pantalla predeterminado.
 
 ## I. Preparación del Entorno de Trabajo
 
-1.  **Descarga de la ISO de Archcraft:**
-    *   Descargue la última versión de la ISO de Archcraft desde el sitio web oficial.
+1.  **Descarga de la ISO de ARCHFIEI:**
+    *   Descargue la última versión de la ISO de ARCHFIEI desde el sitio web oficial.
 
 2.  **Montaje de la ISO:**
     *   Cree un directorio para montar la ISO:
         ```bash
-        mkdir /mnt/archcraft_iso
+        mkdir /mnt/archfiei_iso
         ```
     *   Monte la ISO:
         ```bash
-        sudo mount -o loop /ruta/a/archcraft.iso /mnt/archcraft_iso
+        sudo mount -o loop /ruta/a/archfiei.iso /mnt/archfiei_iso
         ```
 
 3.  **Copia de los Archivos de la ISO:**
     *   Cree un directorio de trabajo:
         ```bash
-        mkdir /home/$USER/archcraft_custom
-        cd /home/$USER/archcraft_custom
+        mkdir /home/$USER/archfiei_custom
+        cd /home/$USER/archfiei_custom
         ```
     *   Copie el contenido de la ISO al directorio de trabajo:
         ```bash
-        cp -r /mnt/archcraft_iso/* .
+        cp -r /mnt/archfiei_iso/* .
         ```
 
 4.  **Desmontar la ISO:**
     ```bash
-    sudo umount /mnt/archcraft_iso
+    sudo umount /mnt/archfiei_iso
     ```
 
 ## II. Personalización del Grub
@@ -147,4 +147,4 @@ Esta guía proporciona instrucciones detalladas sobre cómo modificar la ISO de 
 *   **Copias de Seguridad:** Siempre haga copias de seguridad de los archivos de configuración originales antes de modificarlos.
 *   **Documentación:** Consulte la documentación oficial de Arch Linux, Calamares, Openbox y BSPWM para obtener más información sobre las opciones de configuración disponibles.
 
-¡Disfrute de su ISO de Archcraft personalizada!
+¡Disfrute de su ISO de ARCHFIEI personalizada!
