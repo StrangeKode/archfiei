@@ -1,4 +1,4 @@
-# Estructura del proyecto (Archcraft ISO)
+# Estructura del proyecto 
 
 Este documento describe cada parte del perfil ISO y dónde modificar para personalizar la build.
 
@@ -38,4 +38,4 @@ Contenido que se copia al rootfs del live.
 
 ## Build
 - Requisitos: `archiso`, `dosfstools`, `mtools`, `squashfs-tools`, `xorriso`, `grub` (si usas GRUB).
-- Comando: `sudo /home/arc/Escritorio/archcraft/profile/mkarchcraftiso /home/arc/Escritorio/archcraft/profile`.
+- Comando: `sudo /home/arc/Escritorio/archfiei/profile/mkarchcraftiso /home/arc/Escritorio/archfiei/profile`.
