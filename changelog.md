@@ -1,4 +1,4 @@
-<h2 align="center">Archcraft : Cambios (Changelog)</h2>
+<h2 align="center">ARCHFIEI : Cambios </h2>
 
 ### Julio 2025
 - Se eliminó temporalmente el soporte para `btrfs` debido a un bug con grub+btrfs que deja el sistema instalado inbooteable 
@@ -25,7 +25,7 @@
 ### Enero 2025
 - Perfil ISO actualizado a `archiso 82-1`
 - Última base con nuevos paquetes
-- Actualización de todos los paquetes de Archcraft y AUR
+- Actualización de todos los paquetes de ARCHFIEI y AUR
 - Pequeñas mejoras y correcciones
 
 #
@@ -33,7 +33,7 @@
 ### Octubre 2024
 - Perfil ISO actualizado
 - Última base con nuevos paquetes
-- Actualización de todos los paquetes de Archcraft y AUR
+- Actualización de todos los paquetes de ARCHFIEI y AUR
 - Añadidos nuevos temas de cursor, iconos y GTK (y actualizaciones a los existentes)
 - Añadidos nuevos temas de openbox (y actualizaciones a los existentes)
 - Añadidas nuevas tipografías e iconos nerd (y actualizaciones a los existentes)
@@ -79,7 +79,7 @@
 ### Enero 2024
 - Perfil ISO actualizado
 - Última base con nuevos paquetes
-- Actualización de todos los paquetes de Archcraft y AUR
+- Actualización de todos los paquetes de ARCHFIEI y AUR
 - Migración de `alacritty` a su nuevo formato (de `yml` a `toml`)
 - Actualizados todos los scripts relacionados con alacritty
 - Añadido módulo `tray` en polybar y corregidas fuentes
